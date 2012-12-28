@@ -1,0 +1,25 @@
+<html>
+
+<head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+        <title>Upload Form</title>
+</head>
+
+<body>
+        <h3>Text log files</h3>
+        <form enctype="multipart/form-data" action="/text" method="post">
+        <input type="file" name="filearg" />
+        <br /> <br />
+        <input type="submit" value="upload" />
+        </form>
+
+        <h3>Json log files</h3>
+        <form enctype="multipart/form-data" action="/json" method="post">
+        <input type="file" name="filearg" />
+        <br /> <br />
+        <input type="submit" value="upload" />
+        </form>
+
+</body>
+
+</html>
